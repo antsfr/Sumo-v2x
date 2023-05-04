@@ -1,0 +1,20 @@
+filename: "osm"
+sumoPath: "D:/Program Files/Eclipse/Sumo"
+hostname: # "localhost"
+  - "localhost"
+  - "localhost"
+port:
+  - 9033
+  - 9033
+
+GUI: true
+TLRetrieval: true
+scenario: "signal_violation"
+tlID:
+  - "2860520989"
+  - "2860520988"
+vehID:
+  - "veh0"
+  - "veh1"
+steps: 260
+NMEAFreq: 0.002
